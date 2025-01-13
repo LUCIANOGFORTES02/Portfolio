@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+@layer base {
+  :root {
+    --background: 240 23% 13%; /* Cor de fundo */
+    --foreground: 0 0% 100%;  /* Cor do texto */
+    --foreground-secondary: 249 67% 63%;  /* Cor do texto secundária*/
+    --blue-dark: 0 0% 74%; /* Para o fundo do Aboute Me */
+
+  }
+
+  body {
+    @apply h-full;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+  html {
+    @apply h-full;
+  }
+}
+
+@layer utilities {
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+  .text-primary {
+    color: hsl(var(--primary));
+  }
+  .text-secondary {
+    color: hsl(var(--foreground-secondary));
+  }
+
+}
