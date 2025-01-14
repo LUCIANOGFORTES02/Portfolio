@@ -45,7 +45,7 @@ export default function Projects() {
   
 
   return (
-    <section id="projects" className='mt-12'>
+    <section id="projects" className='mt-20'>
         <h1 className='text-2xl text-secondary font-bold' >
           Projetos:
         </h1>

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className='px-8 md:px-12 lg:px-24 gap-8 '>
-    <Header/>
+      <Header/>
       <Home/>
       <AboutMe/>
       <Skills></Skills>
