@@ -45,16 +45,16 @@ export default function Projects() {
   
 
   return (
-    <section className='mt-12'>
+    <section id="projects" className='mt-12'>
         <h1 className='text-2xl text-secondary font-bold' >
-          Projects:
+          Projetos:
         </h1>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4'>
             {projects.map((project,index)=>(
                 <div key={index}  className='border-2 border-purple-700 p-6 rounded-lg text-center hover:shadow-lg transition-shadow duration-300'>
                     <div>
                         <p className='text-xl font-bold'>{project.title}</p>
-                        <p>{project.description}</p> 
+                        <p className="mt-2">{project.description}</p> 
                           {/*Tecnologias*/}
                         <div>
                           {project.backend &&(
