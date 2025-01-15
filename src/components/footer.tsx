@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope,FaPhoneAlt } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -8,9 +8,15 @@ export default function Footer() {
           {/* Seção de Contato */}
           <div className="flex flex-col items-start">
             <h2 className="text-2xl font-bold text-purple-400 mb-4">Entre em Contato</h2>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-400 mb-2">
               Vamos criar algo incrível juntos? Entre em contato comigo por e-mail ou redes sociais.
             </p>
+            <p className="flex items-center text-purple-500 mb-1">  
+            <strong>Telefone:</strong>
+              . (86)98835-5123
+            </p>
+            
+            
             <div className="flex space-x-4">
               <a
                 href="mailto:lucianogfortes02@gmail.com"
@@ -19,6 +25,7 @@ export default function Footer() {
               >
                 <FaEnvelope />
               </a>
+
               <a
                 href="https://github.com/LUCIANOGFORTES02"
                 target="_blank"
@@ -38,6 +45,7 @@ export default function Footer() {
                 <FaLinkedin />
               </a>
             </div>
+
           </div>
   
           {/* Links Rápidos */}
