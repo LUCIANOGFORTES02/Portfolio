@@ -51,30 +51,35 @@ export default function Projects() {
         </h1>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4'>
             {projects.map((project,index)=>(
-                <div key={index}  className='border-2 border-purple-700 p-6 rounded-lg text-center hover:shadow-lg transition-shadow duration-300'>
+                <div 
+                key={index}  
+                className='border-2 border-purple-700 p-6 rounded-lg flex flex-col justify-between   hover:shadow-lg transition-shadow duration-300 '
+                >
                     <div>
-                        <p className='text-xl font-bold'>{project.title}</p>
-                        <p className="mt-2">{project.description}</p> 
+                      <p className='text-xl font-bold text-purple-500'>{project.title}</p>
+                      <p className="mt-2 text-gray-400">{project.description}</p> 
+                          
                           {/*Tecnologias*/}
-                        <div>
-                          {project.backend &&(
-                            <p className="text-gray-400 text-sm">
-                              <strong>Backend:</strong> {project.backend.join(", ")}
-                            </p>
+                      <div>
+                        {project.backend &&(
+                          <p className="text-gray-400 text-sm mt-2">
+                            <strong>Backend:</strong> {project.backend.join(", ")}
+                          </p>
                           )}
                           {project.frontend && (
-                            <p className="text-gray-400 text-sm">
+                            <p className="text-gray-400 text-sm mt-2">
                               <strong>Frontend:</strong> {project.frontend.join(", ")}
                             </p>
                           )}
-                        </div>                
+                        </div>
+                      </div> 
                         <div className="flex justify-center gap-4 mt-4">
                           {project.repo && (
                             <a
                               href={project.repo}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded transition-all duration-300"
+                              className="bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded-lg transition-all duration-300"
                             >
                               Repository
                             </a>
@@ -84,22 +89,16 @@ export default function Projects() {
                               href={project.live}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="border border-purple-700 hover:bg-purple-500 hover:text-white text-purple-500 py-2 px-4 rounded transition-all duration-300"
+                              className="border border-purple-700 hover:bg-purple-500 hover:text-white text-purple-500 py-2 px-4 rounded-lg transition-all duration-300"
                             >
                               Live Demo
                             </a>
                           )}
                         </div>
 
-                    </div>
-                  
-  
-                </div>
-
+                    </div>    
             )
             )}
-
-
         </div>
     </section>
   )
