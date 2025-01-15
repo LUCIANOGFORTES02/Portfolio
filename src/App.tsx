@@ -8,14 +8,15 @@ import Skills from './sections/Skills'
 function App() {
 
   return (
-    <div className='px-8 md:px-12 lg:px-24 gap-8 '>
-      <Header/>
-      <Home/>
-      <AboutMe/>
-      <Skills></Skills>
-      <Projects/>
-      <Footer/>
-    </div>
+   
+     <div className="container mx-auto px-4 max-w-screen-lg">
+     <Header />
+     <Home />
+     <AboutMe />
+     <Skills />
+     <Projects />
+     <Footer />
+   </div>
   )
 }
 

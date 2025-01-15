@@ -2,18 +2,18 @@
 export default function Home() {
 
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-8 items-cente">
+    <section className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-8 items-center">
       {/*Imagem de Perfil */}
       <div className="flex items-center justify-center ">
         <img
-          src="/Image Profile.jpeg"
+          src="/ImageProfile3.jpeg"
           alt="Luciano Fortes"
           className="rounded-full w-60 h-60 shadow-lg"
         />
         </div>
 
       {/* Texto */}
-      <div className="flex flex-1 flex-col justify-center md:text-left">
+      <div className="flex flex-1 flex-col justify-center md:text-left ">
         <h1 className="text-2xl">
           Olá, eu sou
         </h1>
