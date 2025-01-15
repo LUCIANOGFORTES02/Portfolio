@@ -8,7 +8,7 @@ export default function Header() {
           <span>Sobre mim</span>
         </a>
         <a href="#skills" className="hover:text-purple-600">
-          Skills
+          Habilidades
         </a>
         <a href="#projects" className="hover:text-purple-600"> 
           <span>Projetos</span>
