@@ -66,7 +66,7 @@ export default function Projects() {
             {projects.map((project,index)=>(
                 <div 
                 key={index}  
-                className='border-2 border-purple-700 p-6 rounded-lg flex flex-col justify-between h-[275px] md:h-[350px]  hover:shadow-lg transition-shadow duration-300 '
+                className='border-2 border-purple-700 p-6 rounded-lg flex flex-col justify-between h-[350px]  hover:shadow-lg transition-shadow duration-300 '
                 >
                     <div>
                       <p className='text-xl font-bold text-purple-500'>{project.title}</p>
@@ -116,7 +116,7 @@ export default function Projects() {
                                 href={project.backendRepo}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded-lg flex items-center gap-2 transition-all duration-300"
+                                className="  bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded-lg flex items-center transition-all duration-300"
                               >
                                   Repositório do Backend
                               </a>
@@ -126,7 +126,7 @@ export default function Projects() {
                                 href={project.frontendRepo}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded-lg flex items-center gap-2 transition-all duration-300"
+                                className="bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded-lg flex items-center transition-all duration-300"
                               >
                                 Repositório do Frontend
                               </a>
