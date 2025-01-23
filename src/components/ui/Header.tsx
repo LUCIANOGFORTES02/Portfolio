@@ -1,7 +1,7 @@
 // import { useState } from "react";
 import { Menu } from 'lucide-react';
 // import { X } from 'lucide-react';
-import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from "./sheet";
+import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./sheet";
 
 
 
