@@ -1,10 +1,9 @@
 # Meu Portfólio
-
-Bem-vindo ao meu portfólio! 🎉 Este é um projeto que desenvolvi para apresentar minhas habilidades, projetos e experiências profissionais. Ele foi construído utilizando tecnologias modernas e com um design responsivo para oferecer a melhor experiência para os visitantes.
+Bem-vindo ao meu portfólio!  Este é um projeto que desenvolvi para apresentar minhas habilidades, projetos e experiências profissionais. Ele foi construído utilizando tecnologias modernas e com um design responsivo para oferecer a melhor experiência para os visitantes.
 ---
-https://portfolio-xi-silk-59.vercel.app/
+[https://portfolio-luciano24.vercel.app/](https://portfolio-luciano24.vercel.app/)
 
-## ** Tecnologias Utilizadas**
+##  Tecnologias Utilizadas
 
 - **Frontend:**
   - React.js
@@ -15,7 +14,7 @@ https://portfolio-xi-silk-59.vercel.app/
 
 ---
 
-## ** Estrutura do Projeto**
+## **Estrutura do Projeto**
 
 ```plaintext
 portfolio/
