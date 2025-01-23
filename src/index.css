@@ -12,7 +12,7 @@
     --background: 240 23% 13%; /* Cor de fundo */
     --foreground: 0 0% 100%;  /* Cor do texto */
     --foreground-secondary: 249 67% 63%;  /* Cor do texto secundária*/
-    --blue-dark: 0 0% 74%; /* Para o fundo do Aboute Me */
+    --blue-dark: 0 0% 74%; /* Para o fundo do Aboute Me */ --radius: 0.5rem;
 
   }
 

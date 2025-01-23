@@ -1,5 +1,5 @@
-import Footer from './components/footer'
-import Header from './components/Header'
+import Footer from './components/ui/footer'
+import Header from './components/ui/Header'
 import AboutMe from './sections/AboutMe'
 import Home from './sections/Home'
 import Projects from './sections/Projects'

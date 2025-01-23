@@ -9,17 +9,18 @@ export default function AboutMe() {
         <div >
             {/* Descrição */}
             <h1 className='text-2xl text-secondary  font-bold'>Sobre mim:</h1>
-            <p className='mt-4 text-lg'>
+            <p className='text-justify mt-4 text-lg'>
                 Sou estudante de Ciência da Computação pela UFPI, apaixonado por tecnologia e inovação. Minha trajetória acadêmica e profissional me proporcionou uma sólida base em desenvolvimento de software, análise de dados e projetos colaborativos.
             </p>
             {/* Experiência */}
 
-            <p className='mt-4 text-lg'>
+            <p className='text-justify mt-4 text-lg'>
                 Participei de uma pesquisa científica focada na análise preditiva e identificação de padrões para reduzir roubos e furtos de automóveis, utilizando Python e Machine Learning. Além disso, durante meu estágio no Laboratório de Engenharia de Software da UFPI, desenvolvi um sistema interativo para análise de informações acadêmicas, utilizando React.js e processamento de dados XML.
             </p>
-            <p className='mt-4 text-lg'>
-                Atualmente, estou desenvolvendo uma aplicação web hospedada na AWS para gerenciamento de acessos, aplicando ferramentas modernas como Node.js e React. Busco desafios que me permitam crescer como desenvolvedor, contribuindo com soluções tecnológicas inovadoras e de impacto positivo.
-            </p>
+            <p className='text-justify mt-4 text-lg'>
+            Recentemente concluí o desenvolvimento de uma aplicação web hospedada na AWS para gerenciamento de mídias, utilizando tecnologias modernas como Node.js e React. 
+            Atualmente, continuo me aprofundando nos serviços da AWS e busco novos desafios que me permitam evoluir como desenvolvedor.
+           </p>
         </div>
 
     </section>

@@ -2,6 +2,17 @@
 export default function Projects() {
   const projects = [
     {
+      title: "Projeto MyAccess (Projeto UFPI)",
+      description: "Aplicação web para gerenciamento de mídias utilizando a infraestrutura da AWS.",
+      backend: ["JavaScript","Express"],
+      frontend: ["TypeScript", "React.js" ],
+      backendRepo: "https://github.com/Note45/backend-myaccess",
+      frontendRepo: "https://github.com/LUCIANOGFORTES02/frontend-myaccess",
+      technologies: ["AWS", "React", "Node.js", "Express"],
+      repo: null,
+      live: null,
+    },
+    {
       title: "Projeto Web Moderno Completo",
       description: "Plataforma para compartilhamento de conhecimento com artigos categorizados.",
       backend: ["JavaScript", "Knex.js", "Mongoose", "Postgres", "Express"],
@@ -18,13 +29,14 @@ export default function Projects() {
       live: null,
     },
     {
-      title: "Curso PROWAY Angular",
-      description: "Aplicação desenvolvida durante o curso PROWAY de Angular.",
-      backend: null,
-      frontend: ["TypeScript", "Angular CLI"],
-      repo: "https://github.com/LUCIANOGFORTES02/PROWAY-ANGULAR",
-      live: "https://lucianogfortes02.github.io/PROWAY-ANGULAR/",
+      title: "E-commerce com React e Node.js",
+      description: "Desenvolvimento de um E-commerce com ferramentas modernas.",
+      backend: ["Prisma", "JavaScript", "Node.js", "Express"],
+      frontend: ["React", "Vite", "Shadcn/ui", "TypeScript"],
+      repo: "https://github.com/LUCIANOGFORTES02/E-commerce",
+      live: null,
     },
+
     {
       title: "Curso Ignite React",
       description: "Projeto criado durante o curso Ignite de React.",
@@ -34,13 +46,14 @@ export default function Projects() {
       live: "https://lucianogfortes02.github.io/React-Ingnite/",
     },
     {
-      title: "E-commerce com React e Node.js",
-      description: "Desenvolvimento de um E-commerce com ferramentas modernas.",
-      backend: ["Prisma", "JavaScript", "Node.js", "Express"],
-      frontend: ["React", "Vite", "Shadcn/ui", "TypeScript"],
-      repo: "https://github.com/LUCIANOGFORTES02/E-commerce",
+      title: "Curso PROWAY Angular",
+      description: "Aplicação desenvolvida durante o curso PROWAY de Angular.",
+      backend: null,
+      frontend: ["TypeScript", "Angular CLI"],
+      repo: "https://github.com/LUCIANOGFORTES02/PROWAY-ANGULAR",
       live: null,
     },
+
   ];
   
 
@@ -53,17 +66,17 @@ export default function Projects() {
             {projects.map((project,index)=>(
                 <div 
                 key={index}  
-                className='border-2 border-purple-700 p-6 rounded-lg flex flex-col justify-between   hover:shadow-lg transition-shadow duration-300 '
+                className='border-2 border-purple-700 p-6 rounded-lg flex flex-col justify-between h-[275px] md:h-[350px]  hover:shadow-lg transition-shadow duration-300 '
                 >
                     <div>
                       <p className='text-xl font-bold text-purple-500'>{project.title}</p>
-                      <p className="mt-2 text-gray-400">{project.description}</p> 
+                      <p className=" mt-2 text-gray-400">{project.description}</p> 
                           
                           {/*Tecnologias*/}
                       <div>
                         {project.backend &&(
                           <p className="text-gray-400 text-sm mt-2">
-                            <strong>Backend:</strong> {project.backend.join(", ")}
+                            <strong>Backend:</strong> {project?.backend?.join(", ")}
                           </p>
                           )}
                           {project.frontend && (
@@ -73,6 +86,8 @@ export default function Projects() {
                           )}
                         </div>
                       </div> 
+                      {/* Botões  */}
+                      <div>
                         <div className="flex justify-center gap-4 mt-4">
                           {project.repo && (
                             <a
@@ -81,7 +96,7 @@ export default function Projects() {
                               rel="noopener noreferrer"
                               className="bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded-lg transition-all duration-300"
                             >
-                              Repository
+                              Repositório
                             </a>
                           )}
                           {project.live && (
@@ -95,7 +110,30 @@ export default function Projects() {
                             </a>
                           )}
                         </div>
+                        <div className="flex justify-center gap-4 mt-4">
+                            {project.backendRepo && (
+                              <a
+                                href={project.backendRepo}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded-lg flex items-center gap-2 transition-all duration-300"
+                              >
+                                  Repositório do Backend
+                              </a>
+                            )}
+                            {project.frontendRepo && (
+                              <a
+                                href={project.frontendRepo}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-purple-700 hover:bg-purple-600 text-white py-2 px-4 rounded-lg flex items-center gap-2 transition-all duration-300"
+                              >
+                                Repositório do Frontend
+                              </a>
+                            )}
+                          </div>
 
+                          </div>
                     </div>    
             )
             )}

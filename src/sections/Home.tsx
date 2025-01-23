@@ -20,7 +20,7 @@ export default function Home() {
         <h2 className="text-4xl font-bold "> 
           Luciano Guimarães Fortes
         </h2> 
-        <p className="mt-4 text-lg ">
+        <p className="text-justify mt-4 text-lg ">
         Estudante de Ciência da Computação apaixonado por tecnologia e inovação.           Atualmente, estou focado em desenvolver aplicações impactantes que combinem tecnologia e inovação, sempre buscando desafios que me permitam crescer e aprender.
         
 
