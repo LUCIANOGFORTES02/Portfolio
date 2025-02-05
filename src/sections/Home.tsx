@@ -27,7 +27,7 @@ export default function Home() {
         </p>
         <div className="mt-6 flex justify-center md:justify-start gap-4">
           <a
-            href="/Luciano Guimarães Fortes (1).pdf"
+            href="/Luciano Guimarães Fortes.pdf"
             download
             className="bg-purple-700 text-white py-2 px-6 rounded-lg shadow hover:bg-purple-600 transition-all duration-300"
           >
