@@ -8,7 +8,7 @@
 export default function Header() {
 
   return (
-    <header className="flex justify-between items-center py-4 ">
+    <header className="flex justify-between items-center py-4 px-4">
       <div className='hidden sm:flex text-lg text-secondary'>Luciano Fortes</div>
       
       <nav className="flex items-center justify-center  gap-2">

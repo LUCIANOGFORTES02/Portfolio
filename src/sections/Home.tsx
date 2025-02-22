@@ -2,7 +2,7 @@
 export default function Home() {
 
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-8 items-center">
+    <section className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-8 items-center px-4">
       {/*Imagem de Perfil */}
       <div className="flex items-center justify-center ">
         <img
@@ -27,7 +27,7 @@ export default function Home() {
         </p>
         <div className="mt-6 flex justify-center md:justify-start gap-4">
           <a
-            href="/Luciano Guimarães Fortes.pdf"
+            href="/Currículo_Luciano_Guimarães_Fortes.pdf"
             download
             className="bg-purple-700 text-white py-2 px-6 rounded-lg shadow hover:bg-purple-600 transition-all duration-300"
           >

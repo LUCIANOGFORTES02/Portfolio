@@ -1,5 +1,5 @@
-import Footer from './components/ui/footer'
-import Header from './components/ui/Header'
+import Footer from './sections/footer'
+import Header from './sections/Header'
 import AboutMe from './sections/AboutMe'
 import Home from './sections/Home'
 import Projects from './sections/Projects'
@@ -9,7 +9,7 @@ function App() {
 
   return (
    
-     <div className="container mx-auto px-4 max-w-screen-lg">
+     <div className="container mx-auto max-w-screen-lg">
      <Header />
      <Home />
      <AboutMe />

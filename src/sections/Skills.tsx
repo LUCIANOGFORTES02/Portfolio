@@ -6,7 +6,7 @@ import { AiOutlineTeam, } from "react-icons/ai";
 
 export default function Skills() {
   return (
-    <section id='skills' className='mt-20'>
+    <section id='skills' className='mt-20 px-4'>
       <h1 className='text-2xl text-secondary font-bold'>Habilidades:</h1>
       
       {/* Habilidades */}

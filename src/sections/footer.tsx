@@ -2,8 +2,8 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
     return (
-      <footer id="contact"className="border-t border-gray-700 text-white py-8 mt-20">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      <footer id="contact"className="border-t  py-4 mt-10">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
           
           {/* Seção de Contato */}
           <div className="flex flex-col items-start">
