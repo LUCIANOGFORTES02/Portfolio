@@ -5,10 +5,10 @@
 
 export default function AboutMe() {
   return (
-    <section id='about' className='mt-20 px-4' >
+    <section id='about' className='mt-12 px-4' >
         <div >
             {/* Descrição */}
-            <h1 className='text-2xl text-secondary  font-bold'>Sobre mim:</h1>
+            <h1 className='text-3xl text-secondary  font-bold'>Sobre mim:</h1>
             <p className='text-justify mt-4 text-lg'>
                 Sou estudante de Ciência da Computação pela UFPI, apaixonado por tecnologia e inovação. Minha trajetória acadêmica e profissional me proporcionou uma sólida base em desenvolvimento de software, análise de dados e projetos colaborativos.
             </p>

@@ -9,12 +9,15 @@ function App() {
 
   return (
    
-     <div className="container mx-auto max-w-screen-lg">
+     <div className='flex flex-col'>
      <Header />
-     <Home />
-     <AboutMe />
-     <Skills />
-     <Projects />
+      <main className=" mx-auto max-w-screen-lg"> 
+        <Home />
+        <AboutMe />
+        <Skills />
+        <Projects />
+      </main>
+
      <Footer />
    </div>
   )

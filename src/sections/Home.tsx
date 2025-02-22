@@ -14,14 +14,14 @@ export default function Home() {
 
       {/* Texto */}
       <div className="flex flex-1 flex-col justify-center md:text-left ">
-        <h1 className="text-2xl">
+        <h1 className="text-2xl text-secondary ">
           Olá, eu sou
         </h1>
-        <h2 className="text-4xl font-bold "> 
+        <h2 className="text-4xl font-bold  text-secondary "> 
           Luciano Guimarães Fortes
         </h2> 
-        <p className="text-justify mt-4 text-lg ">
-        Estudante de Ciência da Computação apaixonado por tecnologia e inovação.           Atualmente, estou focado em desenvolver aplicações impactantes que combinem tecnologia e inovação, sempre buscando desafios que me permitam crescer e aprender.
+        <p className="text-justify  mt-4 text-lg ">
+        Estudante de Ciência da Computação apaixonado por tecnologia e inovação. Atualmente, estou focado em desenvolver aplicações impactantes que combinem tecnologia e inovação, sempre buscando desafios que me permitam crescer e aprender.
         
 
         </p>
@@ -29,7 +29,7 @@ export default function Home() {
           <a
             href="/Currículo_Luciano_Guimarães_Fortes.pdf"
             download
-            className="bg-purple-700 text-white py-2 px-6 rounded-lg shadow hover:bg-purple-600 transition-all duration-300"
+            className="bg-purple-600 text-white py-2 px-6 rounded-lg shadow hover:bg-purple-500 transition-all duration-300"
           >
             Download CV
           </a>
