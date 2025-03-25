@@ -5,7 +5,7 @@
 
 export default function AboutMe() {
   return (
-    <section id='about' className='mt-12 px-4  max-w-4xl mx-auto' >
+    <section id='about' className='mt-12 px-4 ' >
         <div >
             {/* Descrição */}
             <h1 className='text-3xl  text-purple-700  font-bold'>Sobre mim:</h1>
