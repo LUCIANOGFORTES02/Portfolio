@@ -13,7 +13,7 @@ export default function Projects() {
     },
     {
       title: "Projeto FWS Barber",
-      description: "Sistema de reservas de barbearia com interface responsiva e banco de dados PostgreSQL utilizando Supabase.",
+      description: "Sistema de reservas de barbearia com interface responsiva e banco de dados PostgreSQL utilizando Supabase. UI desenvolvida para mobile",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
       repo: "https://github.com/LUCIANOGFORTES02/FWS-Barber",
       live: "https://fws-barber-sigma.vercel.app",
@@ -53,7 +53,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className='mt-12 px-4'>
-        <h1 className='text-3xl text-secondary font-bold mb-6' >
+        <h1 className='text-3xl text-purple-700 font-bold mb-6' >
           Projetos:
         </h1>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
