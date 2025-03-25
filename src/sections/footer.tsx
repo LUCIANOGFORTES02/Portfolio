@@ -2,12 +2,12 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
     return (
-      <footer id="contact"className="border-t py-4 mt-12">
-        <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+      <footer id="contact" className="   border-t py-4 mt-12">
+        <div className="  mx-auto max-w-screen-lg grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
           
           {/* Seção de Contato */}
           <div className="flex flex-col items-start">
-            <h2 className="text-2xl font-bold text-purple-400 mb-4">Entre em Contato</h2>
+            <h2 className="text-2xl font-bold text-purple-700 mb-4">Entre em Contato</h2>
             <p className="text-gray-400 mb-2">
               Vamos criar algo incrível juntos? Entre em contato comigo por e-mail ou redes sociais.
             </p>
@@ -50,7 +50,7 @@ export default function Footer() {
   
           {/* Links Rápidos */}
           <div className="flex flex-col items-start">
-            <h2 className="text-2xl font-bold text-purple-400 mb-4">Links Rápidos</h2>
+            <h2 className="text-2xl font-bold text-purple-700 mb-4">Links Rápidos</h2>
             <ul className="space-y-2">
               <li>
                 <a href="#home" className="text-gray-400 hover:text-purple-500">
