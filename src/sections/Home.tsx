@@ -33,7 +33,7 @@ export default function Home() {
           Luciano Guimarães Fortes
         </h2> 
         <p className="text-justify  mt-4 text-lg leading-relaxed text-foreground ">
-        Estudante de Ciência da Computação apaixonado por tecnologia e inovação. Atualmente, estou focado em desenvolver aplicações impactantes que combinem tecnologia e inovação, sempre buscando desafios que me permitam crescer e aprender.
+        Formado em Ciência da Computação pela UFPI, apaixonado por tecnologia e inovação. Atualmente, estou focado em desenvolver aplicações impactantes que combinem tecnologia e inovação, sempre buscando desafios que me permitam crescer e aprender.
         
 
         </p>

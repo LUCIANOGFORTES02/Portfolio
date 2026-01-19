@@ -10,7 +10,7 @@ export default function AboutMe() {
             {/* Descrição */}
             <h1 className='text-3xl  text-purple-700  font-bold'>Sobre mim:</h1>
             <p className='text-justify mt-4 leading-relaxed text-lg'>
-                Sou estudante de Ciência da Computação pela UFPI, apaixonado por tecnologia e inovação. Minha trajetória acadêmica e profissional me proporcionou uma sólida base em desenvolvimento de software, análise de dados e projetos colaborativos.
+                Formado em Ciência da Computação pela UFPI, apaixonado por tecnologia e inovação. Minha trajetória acadêmica e profissional me proporcionou uma sólida base em desenvolvimento de software, análise de dados e projetos colaborativos.
             </p>
             {/* Experiência */}
             <h2 className='text-xl font-semibold text-purple-700 mt-6 mb-2'>Experiência acadêmica e prática</h2>
